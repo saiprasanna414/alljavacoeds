@@ -20,6 +20,10 @@ public class SpringSecurityConfig extends WebSecurityConfigurerAdapter {
 		http.csrf().disable();
 		http.authorizeRequests().anyRequest().fullyAuthenticated().and().httpBasic();
 	}
+public  class Demo
+{
+public void doProcess()
+}
 	
 	@Bean
 	public static NoOpPasswordEncoder passwordEncoder() {
